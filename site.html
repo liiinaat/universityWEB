@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личная страница студента</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        h1 { color: #0056b3; }
+        .photo-placeholder {
+            width: 150px;
+            height: 150px;
+            background-color: #ddd;
+            border-radius: 50%;
+            margin: 10px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            font-size: 14px;
+        }
+        section {
+            background: #fff;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h2 { color: #0056b3; border-bottom: 1px solid #eee; padding-bottom: 5px; }
+        a { color: #0056b3; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        ul { margin-top: 5px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- ЗАМЕНИТЕ "Тажетдинова А." на ваше полное имя (например: Тажетдинова Анна) -->
+        <h1>Личный сайт: Тажетдинова Ангелина Халилевна</h1>
+        
+        <!-- Если у вас есть фото, замените src="photo.jpg" на имя вашего файла с фото -->
+        <!-- Если фото нет, этот блок просто покажет серый круг с надписью -->
+        <img src="FullSizeRender (92).heic" alt="Фото студента" class="photo-placeholder" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="photo-placeholder" style="display: none;">Место для фото<br>(photo.jpg)</div>
+        
+        <p>Возраст: 20 лет</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Контакты</h2>
+            <p><strong>Email:</strong> <a href="mailto:tazhetdinovaa26@icloud.com">tazhetdinovaa26@icloud.com</a></p>
+            <p><strong>Сайт вуза:</strong> <a href="https://nvsu.ru" target="_blank">Нижневартовский государственный университет (nvsu.ru)</a></p>
+        </section>
+
+        <section>
+            <h2>Образование</h2>
+            <ul>
+                <li><strong>ВУЗ:</strong> Нижневартовский государственный университет (НВГУ)</li>
+                <li><strong>Факультет:</strong> Факультет информационных технологий и математики</li>
+                <li><strong>Курс:</strong> 3</li>
+                <li><strong>Группа:</strong> 3414</li>
+                <li><strong>Направление:</strong> Информатика и вычислительная техника</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Мой ВУЗ — о НВГУ</h2>
+            <p>Нижневартовский государственный университет (НВГУ) — ведущий вуз Ханты-Мансийского автономного округа – Югры, основанный в 1991 году. Университет активно развивает направления в сфере IT, педагогики, экономики и гуманитарных наук, предоставляя студентам современные возможности для обучения, научной деятельности, стажировок и уверенного карьерного старта.</p>
+        </section>
+
+        <section>
+            <h2>Будущая профессия</h2>
+            <p>В настоящее время я рассматриваю различные направления в IT-сфере (разработка, аналитика данных, системное администрирование). Планирую окончательно определиться с конкретной специализацией и ролью к концу обучения, опираясь на полученные практические навыки.</p>
+        </section>
+
+        <section>
+            <h2>Мои увлечения</h2>
+            <ul>
+                <li>📚 Чтение (художественная и техническая литература)</li>
+                <li>🧮 Математика (решение логических задач, изучение новых разделов)</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p style="text-align: center; color: #777; margin-top: 30px;">
+            &copy; 2024 Тажетдинова А. | Студент НВГУ
+        </p>
+    </footer>
+
+</body>
+</html>
